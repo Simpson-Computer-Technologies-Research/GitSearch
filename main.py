@@ -92,7 +92,7 @@ class GitHubFinder:
                 for key in ["followers_url", "following_url"]:
                     await self.get_follow_profiles(json[key], profile)
             except Exception as e:
-                print(f" >> Error (105): {e}")
+                print(f" >> Error (95): {e}")
                 break
         self.write_to_json(self.result)
 
