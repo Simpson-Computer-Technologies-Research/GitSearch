@@ -7,11 +7,11 @@ class GitHubFinder:
         user = input(" >> Starting User: ") # -> MAKE SURE CAPS ARE CORRECT
 
         # // Global Class Variables
-        self.profile_queue = queue.Queue()
-        self.profile_queue.put(f"https://api.github.com/users/{user}")
-        self.max_profiles = int(input(" >> Max Profiles: "))
+        self.profile_queue = queue.Queue() # -> Queue to track each profile url (Makes it thread safe)
+        self.profile_queue.put(f"https://api.github.com/users/{user}") # -> Put the starting profile into the queue
+        self.max_profiles = int(input(" >> Max Profiles: ")) # -> Get the max amount of profiles per following/followed (rec: 2-10)
         self.github_ratelimit = 60 # -> Github ratelimits ip past 60 requests
-        self.result = {}
+        self.result = {} # -> Result map
         self.profile_data_key_list = [
             "email",
             "bio",
@@ -20,7 +20,7 @@ class GitHubFinder:
             "location",
             "blog",
             "company"
-        ]
+        ] # -> Profile Url Data Keys to add to the result[user]["data"]
         
         # // Request Headers
         self.request_headers = {
@@ -92,7 +92,7 @@ class GitHubFinder:
                 for key in ["followers_url", "following_url"]:
                     await self.get_follow_profiles(json[key], profile)
             except Exception as e:
-                print(f" >> Error (105): {e}")
+                print(f" >> Error (95): {e}")
                 break
         self.write_to_json(self.result)
 

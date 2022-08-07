@@ -228,15 +228,6 @@
             "https://api.github.com/users/uberspot",
             "https://api.github.com/users/BinaryWorld0101201",
             "https://api.github.com/users/realTristan"
-        ],
-        "data": [
-            null,
-            null,
-            null,
-            "Dr. Brandon Wiley",
-            "Austin, Texas",
-            "https://OperatorFoundation.org/",
-            "Operator Foundation"
         ]
     },
     "https://api.github.com/users/tarcieri": {
@@ -244,15 +235,6 @@
             "https://api.github.com/users/uberspot",
             "https://api.github.com/users/BinaryWorld0101201",
             "https://api.github.com/users/realTristan"
-        ],
-        "data": [
-            null,
-            "Co-founder @iqlusioninc, formerly @square. Cryptography and infrastructure engineer. Polyglot programmer.",
-            null,
-            "Tony Arcieri",
-            "San Francisco, CA",
-            "https://tonyarcieri.com",
-            "@iqlusioninc"
         ]
     },
     "https://api.github.com/users/eggie5": {
@@ -260,15 +242,6 @@
             "https://api.github.com/users/uberspot",
             "https://api.github.com/users/BinaryWorld0101201",
             "https://api.github.com/users/realTristan"
-        ],
-        "data": [
-            null,
-            "Data Scientist Search & Personalization\r\nML/DL/GPU/Python/Java",
-            "eggie5",
-            "Alex Egg",
-            "New York",
-            "www.eggie5.com",
-            "Bear Brand"
         ]
     },
     "https://api.github.com/users/lboaretto": {
@@ -276,15 +249,6 @@
             "https://api.github.com/users/redsymbol",
             "https://api.github.com/users/BinaryWorld0101201",
             "https://api.github.com/users/realTristan"
-        ],
-        "data": [
-            null,
-            null,
-            null,
-            "Luiz Boaretto",
-            null,
-            "",
-            null
         ]
     },
     "https://api.github.com/users/forestmonster": {
@@ -485,110 +449,6 @@
         "came_from": [
             "https://api.github.com/users/mojombo",
             "https://api.github.com/users/esin",
-            "https://api.github.com/users/BinaryWorld0101201",
-            "https://api.github.com/users/realTristan"
-        ]
-    },
-    "https://api.github.com/users/sah": {
-        "came_from": [
-            "https://api.github.com/users/blanu",
-            "https://api.github.com/users/uberspot",
-            "https://api.github.com/users/BinaryWorld0101201",
-            "https://api.github.com/users/realTristan"
-        ]
-    },
-    "https://api.github.com/users/evanp": {
-        "came_from": [
-            "https://api.github.com/users/blanu",
-            "https://api.github.com/users/uberspot",
-            "https://api.github.com/users/BinaryWorld0101201",
-            "https://api.github.com/users/realTristan"
-        ]
-    },
-    "https://api.github.com/users/lukesutton": {
-        "came_from": [
-            "https://api.github.com/users/blanu",
-            "https://api.github.com/users/uberspot",
-            "https://api.github.com/users/BinaryWorld0101201",
-            "https://api.github.com/users/realTristan"
-        ]
-    },
-    "https://api.github.com/users/stevedekorte": {
-        "came_from": [
-            "https://api.github.com/users/blanu",
-            "https://api.github.com/users/uberspot",
-            "https://api.github.com/users/BinaryWorld0101201",
-            "https://api.github.com/users/realTristan"
-        ]
-    },
-    "https://api.github.com/users/macournoyer": {
-        "came_from": [
-            "https://api.github.com/users/tarcieri",
-            "https://api.github.com/users/uberspot",
-            "https://api.github.com/users/BinaryWorld0101201",
-            "https://api.github.com/users/realTristan"
-        ]
-    },
-    "https://api.github.com/users/dstrelau": {
-        "came_from": [
-            "https://api.github.com/users/tarcieri",
-            "https://api.github.com/users/uberspot",
-            "https://api.github.com/users/BinaryWorld0101201",
-            "https://api.github.com/users/realTristan"
-        ]
-    },
-    "https://api.github.com/users/technoweenie": {
-        "came_from": [
-            "https://api.github.com/users/tarcieri",
-            "https://api.github.com/users/uberspot",
-            "https://api.github.com/users/BinaryWorld0101201",
-            "https://api.github.com/users/realTristan"
-        ]
-    },
-    "https://api.github.com/users/jish": {
-        "came_from": [
-            "https://api.github.com/users/eggie5",
-            "https://api.github.com/users/uberspot",
-            "https://api.github.com/users/BinaryWorld0101201",
-            "https://api.github.com/users/realTristan"
-        ]
-    },
-    "https://api.github.com/users/rubiety": {
-        "came_from": [
-            "https://api.github.com/users/eggie5",
-            "https://api.github.com/users/uberspot",
-            "https://api.github.com/users/BinaryWorld0101201",
-            "https://api.github.com/users/realTristan"
-        ]
-    },
-    "https://api.github.com/users/rafamvc": {
-        "came_from": [
-            "https://api.github.com/users/eggie5",
-            "https://api.github.com/users/uberspot",
-            "https://api.github.com/users/BinaryWorld0101201",
-            "https://api.github.com/users/realTristan"
-        ]
-    },
-    "https://api.github.com/users/charlenopires": {
-        "came_from": [
-            "https://api.github.com/users/lboaretto",
-            "https://api.github.com/users/redsymbol",
-            "https://api.github.com/users/BinaryWorld0101201",
-            "https://api.github.com/users/realTristan"
-        ]
-    },
-    "https://api.github.com/users/andrewsmedina": {
-        "came_from": [
-            "https://api.github.com/users/lboaretto",
-            "https://api.github.com/users/redsymbol",
-            "https://api.github.com/users/BinaryWorld0101201",
-            "https://api.github.com/users/realTristan"
-        ]
-    },
-    "https://api.github.com/users/brosner": {
-        "came_from": [
-            "https://api.github.com/users/lboaretto",
-            "https://api.github.com/users/redsymbol",
             "https://api.github.com/users/BinaryWorld0101201",
             "https://api.github.com/users/realTristan"
         ]
