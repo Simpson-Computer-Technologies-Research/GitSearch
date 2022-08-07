@@ -11,7 +11,9 @@ class GitHubFinder:
         self.profile_queue.put(f"https://api.github.com/users/{user}") # -> Put the starting profile into the queue
         self.max_profiles = int(input(" >> Max Profiles: ")) # -> Get the max amount of profiles per following/followed (rec: 2-10)
         self.github_ratelimit = 60 # -> Github ratelimits ip past 60 requests
-        self.result = {} # -> Result map
+        self.result = {
+            f"https://api.github.com/users/{user}": {"came_from": [], "data": []}
+        } # -> Result map
         self.profile_data_key_list = [
             "email",
             "bio",
@@ -83,9 +85,7 @@ class GitHubFinder:
                     resp = await session.get(profile, headers=self.request_headers)
                     json = await resp.json()
                 
-                # // Add profile and it's data to result
-                if not profile in self.result:
-                    self.result[profile] = {"came_from": []}
+                # // Add profile data to result
                 self.result[profile]["data"] = [json[key] for key in self.profile_data_key_list]
                 
                 # // Add Followers/Following to profile queue
