@@ -43,8 +43,8 @@ class GitHubFinder:
     async def get_follow_profiles(self, url: str, came_from: str):
         """
         This method gets the follower and followed's profile urls and adds them to the queue
-            and creates a new profile in the 'result' map with who the profile came_from and
-                the came_from's came_from profiles
+            then for each profile url, a new key in the 'result' map is created
+                with who the profile came_from and the came_from's past came_from profiles
 
         Args:
             url (str): the following/follower url
