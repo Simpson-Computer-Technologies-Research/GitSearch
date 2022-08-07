@@ -10,7 +10,7 @@ class GitHubFinder:
         self.profile_queue = queue.Queue() # -> Queue to track each profile url (Makes it thread safe)
         self.profile_queue.put(f"https://api.github.com/users/{user}") # -> Put the starting profile into the queue
         self.max_profiles = int(input(" >> Max Profiles: ")) # -> Get the max amount of profiles per following/followed (rec: 2-10)
-        self.github_ratelimit = 60 # -> Github ratelimits ip past 60 requests
+        self.github_ratelimit = 60 # -> Github ratelimit
         self.result = {
             f"https://api.github.com/users/{user}": {"came_from": [], "data": []}
         } # -> Result map
