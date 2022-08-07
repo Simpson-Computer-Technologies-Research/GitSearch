@@ -22,7 +22,7 @@ class GitHubFinder:
             "location",
             "blog",
             "company"
-        ] # -> Profile Url Data Keys to add to the result[user]["data"]
+        ] # -> Profile Url Data Keys for adding data to the result[user]["data"]
         
         # // Request Headers
         self.request_headers = {
