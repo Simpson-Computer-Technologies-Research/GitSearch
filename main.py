@@ -48,7 +48,7 @@ class GitHubFinder:
 
         Args:
             url (str): the following/follower url
-            came_from (str): the profile url of the 'url (str)' came_from
+            came_from (str): the profile url of the 'url (str)'
         """
         url = self.clean_url(url)
         
