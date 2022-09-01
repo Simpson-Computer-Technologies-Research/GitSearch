@@ -1,4 +1,4 @@
-# GitHub Finder ![Stars](https://img.shields.io/github/stars/realTristan/GitHubFinder?color=brightgreen) ![Watchers](https://img.shields.io/github/watchers/realTristan/GitHubFinder?label=Watchers)
+# GitSearch ![Stars](https://img.shields.io/github/stars/realTristan/GitSearch?color=brightgreen) ![Watchers](https://img.shields.io/github/watchers/realTristan/GitSearch?label=Watchers)
 ![0*XicVWTaAOHoKCrpi](https://user-images.githubusercontent.com/75189508/186446134-c7ebb621-2f32-42eb-a128-af078a6d8de3.png)
 
 
