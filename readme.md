@@ -1,10 +1,6 @@
 # GitSearch ![Stars](https://img.shields.io/github/stars/realTristan/GitSearch?color=brightgreen) ![Watchers](https://img.shields.io/github/watchers/realTristan/GitSearch?label=Watchers)
 ![0*XicVWTaAOHoKCrpi](https://user-images.githubusercontent.com/75189508/186446134-c7ebb621-2f32-42eb-a128-af078a6d8de3.png)
 
-
-# About
-Finds Github users through their followers / followings
-
 # Showcase
 ![image](https://user-images.githubusercontent.com/75189508/183293124-c21d5aad-7387-4e2c-b086-927ebf8997f1.png)
 
