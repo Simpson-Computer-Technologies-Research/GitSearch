@@ -5,7 +5,41 @@
 - Gitsearch is an easy-to-use python script that produces a list of github users based on the inputted user. The program utilizes the github api for finding the users based off the provided users followings/followers.
 
 # Showcase
-![image](https://user-images.githubusercontent.com/75189508/183293124-c21d5aad-7387-4e2c-b086-927ebf8997f1.png)
+```json
+    "https://api.github.com/users/defunkt": {
+        "came_from": [
+            "https://api.github.com/users/esin",
+            "https://api.github.com/users/BinaryWorld0101201",
+            "https://api.github.com/users/realtristan"
+        ],
+        "data": [
+            null,
+            "\ud83c\udf54",
+            null,
+            "Chris Wanstrath",
+            null,
+            "http://chriswanstrath.com/",
+            null
+        ]
+    },
+    "https://api.github.com/users/blanu": {
+        "came_from": [
+            "https://api.github.com/users/uberspot",
+            "https://api.github.com/users/BinaryWorld0101201",
+            "https://api.github.com/users/realtristan"
+        ],
+        "data": [
+            null,
+            null,
+            null,
+            "Dr. Brandon Wiley",
+            "Austin, Texas",
+            "https://OperatorFoundation.org/",
+            "Operator Foundation"
+        ]
+    }
+}
+```
 
 # License
 MIT License
