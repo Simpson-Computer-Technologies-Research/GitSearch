@@ -1,5 +1,5 @@
 # GitSearch ![Stars](https://img.shields.io/github/stars/realTristan/GitSearch?color=brightgreen) ![Watchers](https://img.shields.io/github/watchers/realTristan/GitSearch?label=Watchers)
-![0*XicVWTaAOHoKCrpi](https://user-images.githubusercontent.com/75189508/186446134-c7ebb621-2f32-42eb-a128-af078a6d8de3.png)
+![102393310-07478b80-3f8d-11eb-84eb-392d555ebd29](https://user-images.githubusercontent.com/75189508/192170833-83339980-9fc0-48ab-9334-7c650cdd6123.png)
 
 # About
 - Gitsearch is an easy-to-use python script that produces a list of github users based on the inputted user. The program utilizes the github api for finding the users based off the provided users followings/followers.
