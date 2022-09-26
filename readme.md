@@ -7,6 +7,7 @@ Gitsearch is an easy-to-use python script that produces a list of github users b
 <h3>Showcase</h3>
 
 ```json
+{
     "https://api.github.com/users/defunkt": {
         "came_from": [
             "https://api.github.com/users/esin",
