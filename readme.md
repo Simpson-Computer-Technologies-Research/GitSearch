@@ -1,4 +1,4 @@
-# GitSearch ![Stars](https://img.shields.io/github/stars/realTristan/GitSearch?color=brightgreen) ![Watchers](https://img.shields.io/github/watchers/realTristan/GitSearch?label=Watchers)
+# GitSearch ![Stars](https://img.shields.io/github/stars/Simpson-Computer-Technologies-Research/GitSearch?color=brightgreen) ![Watchers](https://img.shields.io/github/watchers/Simpson-Computer-Technologies-Research/GitSearch?label=Watchers)
 ![102393310-07478b80-3f8d-11eb-84eb-392d555ebd29](https://user-images.githubusercontent.com/75189508/192170833-83339980-9fc0-48ab-9334-7c650cdd6123.png)
 
 <h2>About</h2>
